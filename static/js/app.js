@@ -25,7 +25,7 @@ function handleClick (){
     let date = d3.select("#datetime").property("value");
     let filteredData = tableData;
     if (date){
-        filteredData = filteredData.filter(row => filteredData.datetime === date)
+        filteredData = filteredData.filter(row => row.datetime === date)
     };
     buildTable(filteredData);
 };

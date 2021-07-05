@@ -24,5 +24,8 @@ This filtering can be used for other similarly structured datasets, which is a s
 
 Object.entries(filters).forEach(([key,value]) => filteredData = filteredData.filter(row => row[key] === value)
 
-One downside of the structure of this code is that it requires the user to input an exact match to the data (aka "el cajon" not "El Cajon") which may contribute to false negatives. One potential workaround would be to create a dropdown menu, rather than a user input field for some of the search criteria.
+One downside of the structure of this code is that it requires the user to input an exact match to the data (aka "el cajon" not "El Cajon") which may contribute to false negatives. One potential workaround would be to create a dropdown menu, rather than a user input field for some of the search criteria. Some references on how this might be accomplished include:
+
+https://www.w3schools.com/howto/howto_css_dropdown.asp
+https://stackoverflow.com/questions/24193593/d3-how-to-change-dataset-based-on-drop-down-box-selection
 

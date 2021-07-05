@@ -29,3 +29,5 @@ One downside of the structure of this code is that it requires the user to input
 https://www.w3schools.com/howto/howto_css_dropdown.asp
 https://stackoverflow.com/questions/24193593/d3-how-to-change-dataset-based-on-drop-down-box-selection
 
+Another option could include updating the code referenced above to include near matches in the filteredData using row[key] == value.
+
